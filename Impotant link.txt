@@ -1,0 +1,13 @@
+
+Role based Authentication
+
+
+https://www.aspsnippets.com/Articles/Implement-Role-based-security-using-Forms-Authentication-in-ASPNet.aspx
+to: maghla.ajkerdeal@gmail.com 
+cc: ronymondal1981@gmail.com 
+
+
+https://www.aspdotnet-suresh.com/2012/07/how-to-bind-dropdownlist-in-aspnet.html
+
+
+

@@ -1,0 +1,19 @@
+ <script type="text/javascript">
+            $(document).ready(function () {
+                var ulProducts = $('#ulProducts');
+                $("#btn").click(function () {
+                    $.ajax({
+                        type: 'GET',
+                        url: 'http://api.ajkerdeal.com/AppApi/Brand/Loadbrand',
+                        dataType: 'json',
+                        success: function (data) {
+                            ulProducts.empty();
+                            $.each(data, function (index, val) {
+                                var product = val.BrandId + ' ' + val.BrandNameEng
+                                ulProducts.append('<li>' + product + '</li>');
+                            });
+                        }
+                      
+                    });
+                });
+            });
